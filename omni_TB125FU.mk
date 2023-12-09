@@ -1,4 +1,4 @@
-#
+7#
 # Copyright (C) 2023 The Android Open Source Project
 # Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 #
@@ -10,7 +10,7 @@
  $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
- $(call inherit-product, vendor/omni/config/common.mk)
+ $(call inherit-product, $(SRC_TARGET_DIR)vendor/omni/config/common.mk)
 
 # Inherit from TB125FU device
 $(call inherit-product, device/lenovo/TB125FU/device.mk)
