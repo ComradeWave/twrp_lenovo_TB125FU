@@ -72,8 +72,8 @@ endif
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
-BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432 #Useless value
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 33554432
+#BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432 #Useless value
+#BOARD_RECOVERYIMAGE_PARTITION_SIZE := 33554432
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_SYSTEMIMAGE_PARTITION_TYPE := ext4
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -88,7 +88,7 @@ BOARD_LENOVO_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 TARGET_BOARD_PLATFORM := mt6768
 
 # Recovery
-TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
+# TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_DEVICE_DIRS := $(DEVICE_PATH)
@@ -120,7 +120,8 @@ TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_LOGCAT := true
 
 # Crypto
-# TW_INCLUDE_CRYPTO := true
-# TW_CRYPTO_MNT_POINT := "/data"
+ TW_INCLUDE_CRYPTO := true
+ TW_CRYPTO_MNT_POINT := "/data"
 # TODO Rest of support
-
+ TW_CRYPTO_FS_OPTIONS := "noatime,nosuid,nodev,noauto_da_alloc,errors=panic,inlinecrypt wait,check,formattable,quota,latemount,resize,,reservedsize=256m,checkpoint=block,fileencryption=aes-256-xts:aes-256-cts:v2,keydirectory=/metadata/vold/metadata_encryption"
+ TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/bootdevice/by-name/userdata"
