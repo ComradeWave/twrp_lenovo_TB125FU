@@ -120,7 +120,7 @@ TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_LOGCAT := true
 
 # Crypto
-TW_INCLUDE_CRYPTO := true
-TW_CRYPTO_MNT_POINT := "/data"
+# TW_INCLUDE_CRYPTO := true
+# TW_CRYPTO_MNT_POINT := "/data"
 # TODO Rest of support
 
