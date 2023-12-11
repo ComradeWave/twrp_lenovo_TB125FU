@@ -1,2 +1,0 @@
-on fs
-	chmod 0444 /dev/goodix_penraw

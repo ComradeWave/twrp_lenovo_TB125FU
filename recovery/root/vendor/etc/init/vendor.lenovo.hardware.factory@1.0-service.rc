@@ -1,4 +1,0 @@
-service factory_hal_service /vendor/bin/hw/vendor.lenovo.hardware.factory@1.0-service
-    class hal
-    user system
-    group system
