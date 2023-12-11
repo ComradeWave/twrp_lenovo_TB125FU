@@ -1,0 +1,143 @@
+{
+  "itemConfig": [
+    {
+      "showName": "VersionInfo"
+    },
+    {
+      "showName": "MainSIMCard"
+    },
+    {
+      "showName": "SdCard"
+    },
+    {
+      "showName": "KeyPad"
+    },
+    {
+      "showName": "Vibrator",
+      "paramconfig": {
+        "is_auto_vibrate": false
+      }
+    },
+    {
+      "showName": "Backlight"
+    },
+  {
+      "showName": "FM"
+    },
+    {
+      "showName": "Battery",
+      "support": false,
+      "paramconfig": {
+        "support_afc_charge": false
+      }
+    },
+    {
+      "showName": "Battery_30W",
+      "paramconfig": {
+        "support_afc_charge": false
+      }
+    },
+    {
+      "showName": "Battery_20W",
+      "paramconfig": {
+        "support_afc_charge": false
+      }
+    },
+    {
+      "showName": "OTG"
+    },
+    {
+      "showName": "LCD"
+    },
+    {
+      "showName": "Flashlight"
+    },
+    {
+      "showName": "TouchPanel"
+    },
+    {
+      "showName": "TpOpenShort"
+    },
+    {
+      "showName": "MainCamera",
+      "support": false
+    },
+    {
+      "showName": "FrontCamera",
+      "support": false
+    },
+    {
+      "showName": "Wlan"
+    },
+    {
+      "showName": "Bluetooth"
+    },
+    {
+      "showName": "GPS"
+    },
+    {
+      "showName": "Gyroscope",
+      "support": false,
+      "paramconfig": {
+        "support_calibrate": false
+      }
+    },
+    {
+      "showName": "Accelerometer",
+      "support": false,
+      "paramconfig": {
+        "support_calibrate": false
+      }
+    },
+    {
+      "showName": "Optical",
+      "support": false
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Proximity_C"
+    },
+    {
+      "showName": "Hall",
+      "support": false
+    },
+	{
+      "showName": "LeftTopSpeaker",
+      "support": false
+    },
+	{
+      "showName": "LeftBottomSpeaker",
+      "support": false
+    },
+	{
+      "showName": "RightTopSpeaker",
+      "support": false
+    },
+	{
+      "showName": "RightBottomSpeaker",
+      "support": false
+    },
+	{
+      "showName": "Speaker",
+      "support": false
+    },
+	{
+      "showName": "MainMicToHeadPhone",
+      "support": false
+    },
+	{
+      "showName": "HsMicToHeadPhone",
+      "support": false
+    },
+  {
+      "showName": "HeadSet",
+      "support": false
+    },
+	{
+      "showName": "Sar",
+      "support": false
+    }
+  ]
+}

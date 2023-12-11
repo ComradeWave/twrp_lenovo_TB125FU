@@ -1,0 +1,27 @@
+{
+  "itemConfig": [
+    {
+      "showName": "Gyroscope"
+    },
+    {
+      "showName": "Accelerometer"
+    },
+    {
+      "showName": "Optical",
+      "support": true
+    },
+    {
+      "showName": "Proximity"
+    },
+    {
+      "showName": "Proximity_C"
+    },
+    {
+      "showName": "Hall",
+      "support": true
+    },
+    {
+      "showName": "Sar"
+    }
+  ]
+}
