@@ -64,8 +64,6 @@ TARGET_KERNEL_SOURCE := kernel/lenovo/TB125FU
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USES_64_BIT_BINDER := true # Experimental
 
-# Set FSTAB
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/etc/recovery.fstab
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
