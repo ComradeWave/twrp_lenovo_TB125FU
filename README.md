@@ -1,4 +1,4 @@
-# Android device tree for Lenovo Lenovo TB125FU (TB125FU)
+# Android device tree for Lenovo TB125FU (TB125FU)
 
 ```
 #
