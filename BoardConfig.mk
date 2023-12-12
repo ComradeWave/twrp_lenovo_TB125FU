@@ -112,7 +112,7 @@ PLATFORM_VERSION := 16.1.0
 BOARD_VNDK_VERSION := current
 
 # TWRP Configuration
-TW_THEME := portrait_hdpi
+TW_THEME := landscape_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
 TARGET_USES_LOGD := true
