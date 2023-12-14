@@ -19,7 +19,14 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service \
     bootctrl.mt6768 \
     bootctrl.mt6768.recovery \
-    android.hardware.boot@1.0-impl.recovery
+    android.hardware.boot@1.0-impl.recovery \
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd \
+    bootctrl
+
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
@@ -27,6 +34,3 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
-
-PRODUCT_PACKAGES += \
-   bootctrl
